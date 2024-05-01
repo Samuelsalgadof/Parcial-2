@@ -4,4 +4,5 @@ import co.edu.uniquindio.parcial2.parcial2.factory.Producto;
 
 public interface Electrodomesticos extends Producto {
 
+    double getPrecio();
 }

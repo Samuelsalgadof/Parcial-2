@@ -5,4 +5,15 @@ public class coche  implements Vehiculo {
     public String descripcion() {
         return "Coche";
     }
+
+    @Override
+    public String precio() {
+        return "2000";
+    }
+
+
+    @Override
+    public double getPrecio() {
+        return Double.parseDouble(precio());
+    }
 }
